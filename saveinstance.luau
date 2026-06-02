@@ -1,7 +1,7 @@
 --!native
 --!optimize 2
 --!divine-intellect
--- https://discord.gg/wx4ThpAsmw
+-- https://discord.gg/9F7sxKb7
 -- if it works, it works -- Ally Carter and Franklin D. Roosevelt
 --[[local exec = identifyexecutor()
 if not (string.find(exec, "Fluxus") or string.find(exec, "Swift")) then
@@ -1673,8 +1673,7 @@ local function synsaveinstance(CustomOptions, CustomOptions2)
 	local currentstr, currentsize, totalsize, chunks = "", 0, 0, table.create(1)
 	local savebuffer, savebuffer_size =
 		{
-			'<!-- Saved by MYSTERY!-ASSETS LEAK
-  (Join to Copy Games) https://discord.gg/9F7sxKb7 --><roblox version="4">',
+			'<!-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/9F7sxKb7 --><roblox version="4">',
 		}, 2
 
 	local StatusText
@@ -2841,8 +2840,7 @@ local function synsaveinstance(CustomOptions, CustomOptions2)
 											end
 										end
 
-										value = "-- Saved by MYSTERY!-ASSETS LEAK
-  (Join to Copy Games) https://discord.gg/9F7sxKb7\n\n"
+										value = "-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/9F7sxKb7\n\n"
 											.. (hasLinkedSource and "-- Original Source: https://assetdelivery.roblox.com/v1/asset/?" .. (LinkedSource_type or "id") .. "=" .. (LinkedSource or LinkedSource_Url) .. "\n\n" or "")
 											.. value
 									end
@@ -2998,7 +2996,7 @@ local function synsaveinstance(CustomOptions, CustomOptions2)
 
 		if OPTIONS.ReadMe then
 			save_extra(
-				"MYSTERY!-ASSETS LEAK",
+				"README",
 				nil,
 				"Script",
 				"--[[\n"
@@ -3006,7 +3004,7 @@ local function synsaveinstance(CustomOptions, CustomOptions2)
 						RecoveredScripts
 						) .. "\n" or "")
 					.. [[
-		Thank you for using UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw.
+		Thank you for using UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/9F7sxKb7.
 
 		If you didn't save in Binary (rbxl) - it's recommended to save the game right away to take advantage of the binary format & to preserve values of certain properties if you used IgnoreDefaultProperties setting (as they might change in the future).
 		You can do that by going to FILE -> Save to File As -> Make sure File Name ends with .rbxl -> Save
@@ -3067,8 +3065,7 @@ local function synsaveinstance(CustomOptions, CustomOptions2)
 		end
 
 		savebuffer[savebuffer_size] =
-			"</roblox><!-- Saved by MYSTERY!-ASSETS LEAK
-  (Join to Copy Games) https://discord.gg/9F7sxKb7 -->"
+			"</roblox><!-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/9F7sxKb7 -->"
 		savebuffer_size += 1
 		save_cache(true)
 		do
