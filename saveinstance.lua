@@ -1,6 +1,3 @@
---!native
---!optimize 2
---!divine-intellect
 -- https://discord.gg/9F7sxKb7
 -- if it works, it works -- Ally Carter and Franklin D. Roosevelt
 --[[local exec = identifyexecutor()

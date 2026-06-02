@@ -1,7 +1,7 @@
 -- Saved by MYSTERY!-ASSETS LEAK
   (Join to Copy Games) https://discord.gg/9F7sxKb7
 
-local saveinstance = loadstring(game:HttpGet("https://raw.githubusercontent.com/mystry112000/MYSTERY-ASSETS-LEAK/refs/heads/main/saveinstance.luau", true))()
+local saveinstance = loadstring(game:HttpGet("https://raw.githubusercontent.com/mystry112000/MYSTERY-ASSETS-LEAK/refs/heads/main/saveinstance.lua", true))()
 
 -- First, save ALL visual settings into a model that gets captured
 local visualBackup = Instance.new("Model")
